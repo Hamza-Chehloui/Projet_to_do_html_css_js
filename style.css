@@ -1,0 +1,22 @@
+body{
+    background:url(pexels-rachel-punzalan-1263250-2403798.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inputtask{
+   background-color: #fffffff3;
+   color: #000;
+   width: 90%;
+   height: 40px;
+  border: none;
+}
+@media (max-width:767px){
+    body{
+        background:url(pexels-ana-frontzek-1654898669-27727844.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    
+    
+}
