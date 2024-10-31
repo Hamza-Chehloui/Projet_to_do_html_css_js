@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class= "content d-flex justify-content-around" style="margin-top: 10px;">
-            <button onclick="showElement()" class="btn btn-primary" type="button" style="background-color: rgba(0, 0, 255, 0.521);">Add Task +</button> 
+            <button id="btn" class="btn btn-primary" type="button" style="background-color: rgba(0, 0, 255, 0.521);">Add Task +</button> 
             <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-radius: 8px 8px 8px 8px;">  
                     
                     <form class="d-flex" role="search">
@@ -33,41 +33,41 @@
           </div>
         </div>
         
-           
+        
             <div id="pageadd_tach" class="hidden pageadd_tach">
                 <h3 style="color: #fff; ">ajouter une novelle tache</h3>
                 <div class="col-md-6"style=" width: 100%;">
                     <label for="validationCustom03" class="form-label" style="color:#fff">Titre</label>
                     <input type="text" class="form-control" id="validationCustom03" required>
                     <div class="invalid-feedback">
-                      Please provide a valid title.
+                        Please provide a valid title.
                     </div>
-                  </div>
-                  <div class="col-md-3"style=" width: 100%;">
+                </div>
+                <div class="col-md-3"style=" width: 100%;">
                     <label for="validationCustom04" class="form-label" style="color: #fff;">Statut</label>
                     <select class="form-select" id="validationCustom04" required>
-                     
+                    
                         <option value="1">TO do</option>
                         <option value="2">In progress</option>
                         <option value="3">Done</option>
                     </select>
                     <div class="invalid-feedback">
-                      Please select a valid state.
+                        Please select a valid state.
                     </div>
-                  </div>
-                  <div class="col-md-3"style=" width: 100%;">
+                    </div>
+                    <div class="col-md-3"style=" width: 100%;">
                     <label for="validationCustom04" class="form-label" style="color: #fff;">priorite de la tache</label>
                     <select class="form-select" id="validationCustom04" required>
-                     
+                    
                         <option value="1">P1</option>
                         <option value="2">P2</option>
                         <option value="3">P3</option>
                     </select>
                     <div class="invalid-feedback">
-                      Please select a valid state.
+                        Please select a valid state.
                     </div>
-                  </div>
-                  <div class="date"style=" width: 100%;">
+                    </div>
+                    <div class="date"style=" width: 100%;">
                     <label for="dat" style="color: #fff;">Date de Depart</label><br>
                     <input id="dat" type="date">
                   </div>
@@ -80,6 +80,7 @@
                       </div>
                     </form>
                     <input class="btn btn-primary" type="submit" value="Submit" style="background-color: rgba(0, 0, 255, 0.635);">
+                    <input id="anuler" class="btn btn-primary" type="button" value="Anuler" style="background-color: rgba(0, 0, 255, 0.635);">
                     </div>
                 
     </body>
