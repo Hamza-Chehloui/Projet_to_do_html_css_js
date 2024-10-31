@@ -1,5 +1,5 @@
 body{
-    background:url(pexels-rachel-punzalan-1263250-2403798.jpg);
+    background:url(img/pexels-rachel-punzalan-1263250-2403798.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,13 +10,24 @@ body{
    height: 40px;
   border: none;
 }
+.hidden{
+    display: none;
+    background-color: green;
+}
+.pageadd_tach{
+    background-color: rgba(24, 24, 57, 0.653);
+    width: 30%;
+}
+
 @media (max-width:767px){
     body{
-        background:url(pexels-ana-frontzek-1654898669-27727844.jpg);
+        background:url(img/pexels-ana-frontzek-1654898669-27727844.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100%;
+        
     }
-    
+    .pageadd_tach{
+        width: 80%;
+    }
     
 }
