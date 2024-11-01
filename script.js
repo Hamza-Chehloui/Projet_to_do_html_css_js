@@ -11,12 +11,14 @@ myanul.onclick =function(){
 }
 let mysub =document.getElementById("submit");
 mysub.onclick= function(){
-    const inputtext =document.getElementById("validationCustom03").value;
-    document.getElementById("div1").innerText=inputtext;
-    const inputdescrep =document.getElementById("validationTextarea").value;
-    document.getElementById("div2").innerText=inputdescrep;
-    const inputdat =document.getElementById("dat").value;
-    document.getElementById("div3").innerText=inputdat;
+    let inputtext =document.getElementById("validationCustom03").value;
+    document.getElementById("titre").innerHTML=inputtext;
+    let inputdescrep =document.getElementById("validationTextarea").value;
+    document.getElementById("Description").innerHTML=inputdescrep;
+    let inputdat =document.getElementById("dat").value;
+    document.getElementById("datetach").innerHTML=inputdat;
     document.getElementById('pageadd_tach').classList.add('hidden');
 }
+
+
 
