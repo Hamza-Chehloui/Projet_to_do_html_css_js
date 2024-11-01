@@ -18,6 +18,13 @@ body{
     width: 30%;
 }
 
+.container_todo{
+    background-color: aliceblue;
+    color: #000;
+    margin-top: 20px;
+    font-size:small;
+    display: none;
+}
 @media (max-width:767px){
     body{
         background:url(img/pexels-ana-frontzek-1654898669-27727844.jpg);
