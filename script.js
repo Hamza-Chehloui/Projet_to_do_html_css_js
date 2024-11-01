@@ -13,12 +13,14 @@ let mysub =document.getElementById("submit");
 mysub.onclick= function(){
     let inputtext =document.getElementById("validationCustom03").value;
     document.getElementById("titre").innerHTML=inputtext;
-    let inputdescrep =document.getElementById("validationTextarea").value;
-    document.getElementById("Description").innerHTML=inputdescrep;
+    // let inputdescrep =document.getElementById("validationTextarea").value;
+    // document.getElementById("Description").innerHTML=inputdescrep;
     let inputdat =document.getElementById("dat").value;
     document.getElementById("datetach").innerHTML=inputdat;
     document.getElementById('pageadd_tach').classList.add('hidden');
 }
+
+
 
 
 
